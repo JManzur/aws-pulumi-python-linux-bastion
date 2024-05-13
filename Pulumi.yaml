@@ -1,0 +1,10 @@
+name: bastion
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: EKS - Bastion host
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
