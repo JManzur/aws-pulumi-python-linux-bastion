@@ -44,9 +44,6 @@ mv /tmp/eksctl /usr/local/bin
 # Install the flux cli:
 curl -s https://fluxcd.io/install.sh | sudo bash
 
-# Get the kubeconfig file:
-aws eks update-kubeconfig --name main
-
 # Install the kustomize cli:
 curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
 chmod a+x kustomize
